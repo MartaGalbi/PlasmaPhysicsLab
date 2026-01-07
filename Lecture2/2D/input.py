@@ -60,7 +60,7 @@ def pulse_temporal_profile(t):
         return 0.
 
 # PLASMA PARAMETERS
-Temp = 10 / mc2  # Temperature of the plasma in MeV
+Temp = 10 / mc2  # Temperature of the plasma in eV
 Z_C = 6  # Charge number of the ions (Carbon)
 A_C = 12  # Atomic mass number of the ions (Carbon)
 species_boundary_conditions = [['remove'], ['periodic']]  # Boundary conditions for species
